@@ -4,6 +4,8 @@ import { Switch, Link, Route, Redirect } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import ProfilePicture from "./jmProfilePicture.jpg";
+
 import './App.scss';
 
 class App extends Component {
@@ -13,6 +15,7 @@ class App extends Component {
         <div className="row">
           <div className="col-md-3 blog-sidebar">
             <div className="blog-sidebar__content">
+              <img className="profile-picture mb-2" src={ProfilePicture} alt="profile-picture" />
               <h6>JM Maniego</h6>
               <div className="mb-5">Ruby on Rails developer</div>
               <ul className="nav justify-content-end">
