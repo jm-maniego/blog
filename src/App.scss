@@ -1,0 +1,22 @@
+$text-color: #282828;
+$btn-border-radius: 0;
+$btn-padding-y: 2px;
+
+@import "styles/bootstrap";
+
+.blog-sidebar__content {
+  opacity: 0.8;
+  padding: 15px;
+  margin-right: -15px;
+  border-right: 1px solid $text-color;
+  text-align: right;
+}
+
+.blog-sidebar__content, .blog-content {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.article-list > li {
+  border: none;
+}
