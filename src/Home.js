@@ -4,12 +4,15 @@ class Home extends Component {
   render() {
     return (
       <ol className="list-group list-group-flush article-list">
-        <li className="list-group-item">
+        <li className="list-group-item article-list-item">
           <article>
-            <a href="#">
-              <h1>Hello World</h1>
-            </a>
-            <p>
+            <div className="mb-2">
+              <a href="#">
+                <h1 className="mb-0">Hello World</h1>
+              </a>
+              <small className="text-muted">3 days ago</small>
+            </div>
+            <p className="article-list-item__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               ipsum diam, consequat vitae ipsum pellentesque, varius
               pellentesque velit. Etiam mollis ex nec cursus gravida. Ut
@@ -19,14 +22,20 @@ class Home extends Component {
               Curabitur ut finibus turpis, sed maximus ex. Donec viverra rutrum
               lacus.
             </p>
+            <div className="article-list-item__footer">
+              <a href="#">Read more...</a>
+            </div>
           </article>
         </li>
-        <li className="list-group-item">
+        <li className="list-group-item article-list-item">
           <article>
-            <a href="#">
-              <h1>Hello World</h1>
-            </a>
-            <p>
+            <div className="mb-2">
+              <a href="#">
+                <h1 className="mb-0">Hello World</h1>
+              </a>
+              <small className="text-muted">3 days ago</small>
+            </div>
+            <p className="article-list-item__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               ipsum diam, consequat vitae ipsum pellentesque, varius
               pellentesque velit. Etiam mollis ex nec cursus gravida. Ut
@@ -36,14 +45,20 @@ class Home extends Component {
               Curabitur ut finibus turpis, sed maximus ex. Donec viverra rutrum
               lacus.
             </p>
+            <div className="article-list-item__footer">
+              <a href="#">Read more...</a>
+            </div>
           </article>
         </li>
-        <li className="list-group-item">
+        <li className="list-group-item article-list-item">
           <article>
-            <a href="#">
-              <h1>Hello World</h1>
-            </a>
-            <p>
+            <div className="mb-2">
+              <a href="#">
+                <h1 className="mb-0">Hello World</h1>
+              </a>
+              <small className="text-muted">3 days ago</small>
+            </div>
+            <p className="article-list-item__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               ipsum diam, consequat vitae ipsum pellentesque, varius
               pellentesque velit. Etiam mollis ex nec cursus gravida. Ut
@@ -53,6 +68,9 @@ class Home extends Component {
               Curabitur ut finibus turpis, sed maximus ex. Donec viverra rutrum
               lacus.
             </p>
+            <div className="article-list-item__footer">
+              <a href="#">Read more...</a>
+            </div>
           </article>
         </li>
       </ol>
