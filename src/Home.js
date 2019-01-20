@@ -20,11 +20,8 @@ class Home extends Component {
               faucibus nibh, ut varius ante. Nunc sodales vehicula elit in
               fermentum. Vestibulum condimentum malesuada tortor in malesuada.
               Curabitur ut finibus turpis, sed maximus ex. Donec viverra rutrum
-              lacus.
+              lacus. <a href="#">Read more...</a>
             </p>
-            <div className="article-list-item__footer">
-              <a href="#">Read more...</a>
-            </div>
           </article>
         </li>
         <li className="list-group-item article-list-item">
@@ -43,11 +40,8 @@ class Home extends Component {
               faucibus nibh, ut varius ante. Nunc sodales vehicula elit in
               fermentum. Vestibulum condimentum malesuada tortor in malesuada.
               Curabitur ut finibus turpis, sed maximus ex. Donec viverra rutrum
-              lacus.
+              lacus. <a href="#">Read more...</a>
             </p>
-            <div className="article-list-item__footer">
-              <a href="#">Read more...</a>
-            </div>
           </article>
         </li>
         <li className="list-group-item article-list-item">
@@ -66,11 +60,8 @@ class Home extends Component {
               faucibus nibh, ut varius ante. Nunc sodales vehicula elit in
               fermentum. Vestibulum condimentum malesuada tortor in malesuada.
               Curabitur ut finibus turpis, sed maximus ex. Donec viverra rutrum
-              lacus.
+              lacus. <a href="#">Read more...</a>
             </p>
-            <div className="article-list-item__footer">
-              <a href="#">Read more...</a>
-            </div>
           </article>
         </li>
       </ol>

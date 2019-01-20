@@ -3,6 +3,15 @@ $btn-border-radius: 0;
 $btn-padding-y: 2px;
 
 @import "styles/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+html {
+  font-size: 14px;
+}
+
+.container {
+  max-width: 960px
+}
 
 .blog-sidebar__content {
   opacity: 0.8;
@@ -15,6 +24,10 @@ $btn-padding-y: 2px;
 .blog-sidebar__content, .blog-content {
   padding-top: 70px;
   padding-bottom: 20px;
+}
+
+.blog-content {
+  font-family: 'Merriweather', serif;
 }
 
 .article-list > li {
@@ -36,5 +49,10 @@ $btn-padding-y: 2px;
 
 .profile-picture {
   width: 100%;
+  border-top: 20px solid $text-color;
   border-bottom: 20px solid $text-color;
+}
+
+.about-page {
+  font-size: 24px;
 }
