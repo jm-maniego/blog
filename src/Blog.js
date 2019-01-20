@@ -21,19 +21,19 @@ class Blog extends React.Component {
               <div className="mb-5">Ruby on Rails developer</div>
               <ul className="nav justify-content-end">
                 <li className="nav-item ml-3 mb-2">
-                  <NavLink exact className="btn btn-outline-secondary" to="/blog">
+                  <NavLink exact className="btn btn-outline-secondary" to="/">
                     Home
                   </NavLink>
                 </li>
                 <li className="nav-item ml-3 mb-2">
-                  <NavLink className="btn btn-outline-secondary" to="/blog/about">
+                  <NavLink className="btn btn-outline-secondary" to="/about">
                     About
                   </NavLink>
                 </li>
                 <li className="nav-item ml-3 mb-2">
                   <NavLink
                     className="btn btn-outline-secondary"
-                    to="/blog/contact"
+                    to="/contact"
                   >
                     Contact
                   </NavLink>
@@ -43,11 +43,9 @@ class Blog extends React.Component {
           </div>
           <div className="col-md-9 blog-content">
             <Switch>
-              <Route exact path="/blog" component={Home} />
-              <Route path="/blog/about" component={About} />
-              <Route path="/blog/contact" component={Contact} />
-
-              <Route exact path="/" component={() => <Redirect to="/blog" />} />
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/contact" component={Contact} />
             </Switch>
           </div>
         </div>

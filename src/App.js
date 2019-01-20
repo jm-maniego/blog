@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     return (
       <Switch>
-        <Route path="/blog/login" component={Login} />
-        <Route path="/blog" component={Blog} />
+        <Route path="/login" component={Login} />
+        <Route path="/" component={Blog} />
       </Switch>
     );
   }
