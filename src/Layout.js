@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect, NavLink } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
 import ProfilePicture from "./jmProfilePicture.jpg";
 
-class Blog extends React.Component {
+class Layout extends Component {
   render() {
     return (
       <div className="container">
@@ -17,7 +14,7 @@ class Blog extends React.Component {
                 src={ProfilePicture}
                 alt="profile-picture"
               />
-              <h6>JM Maniego</h6>
+              <h6><a href="https://jm-maniego.github.io">JM Maniego</a></h6>
               <div className="mb-5">Ruby on Rails developer</div>
               <ul className="nav justify-content-end">
                 <li className="nav-item ml-3 mb-2">
@@ -30,28 +27,16 @@ class Blog extends React.Component {
                     About
                   </NavLink>
                 </li>
-                <li className="nav-item ml-3 mb-2">
-                  <NavLink
-                    className="btn btn-outline-secondary"
-                    to="/contact"
-                  >
-                    Contact
-                  </NavLink>
-                </li>
               </ul>
             </div>
           </div>
           <div className="col-md-9 blog-content">
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/contact" component={Contact} />
-            </Switch>
+            { this.props.children }
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Blog;
+export default Layout;

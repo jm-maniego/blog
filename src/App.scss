@@ -9,6 +9,11 @@ html {
   font-size: 14px;
 }
 
+html,
+body, #root {
+  height: 100%;
+}
+
 .container {
   max-width: 960px
 }
@@ -21,10 +26,10 @@ html {
   text-align: right;
 }
 
-.blog-sidebar__content, .blog-content {
-  padding-top: 70px;
-  padding-bottom: 20px;
-}
+// .blog-sidebar__content, .blog-content {
+//   padding-top: 70px;
+//   padding-bottom: 20px;
+// }
 
 .blog-content {
   font-family: 'Merriweather', serif;
@@ -56,3 +61,13 @@ html {
 .about-page {
   font-size: 24px;
 }
+
+.not-found-page {
+  text-align: center;
+}
+
+.not-found-page-title {
+  font-size: 404px;
+  line-height: 1;
+}
+

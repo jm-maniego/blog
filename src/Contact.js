@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import Layout from "./Layout"
 
 class Contact extends Component {
   render() {
-    return "Hello"
+    return <Layout>Hello</Layout>
   }
 }
 
